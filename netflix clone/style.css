@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url('asset/bgimg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 95vh;
+    position: relative;
+}
+
+.main .box {
+    height: 95vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 75vw;
+    height: 62px;
+    margin: auto;
+    padding: 15px 0;
+}
+
+nav img {
+    width: 140px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    margin: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.text {
+    height: calc(100% - 92px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 18px;
+    padding: 0 20px;
+}
+
+.text> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.text> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sepration {
+    height: 9px;
+    background-color: rgb(46, 44, 44);
+}
+
+.btn-w {
+    font-style: normal;
+    line-height: 20px;
+    padding: 3px 8px;
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border-radius: 5px;
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    font-style: normal;
+    color: white;
+    line-height: 14px;
+    font-weight: 700;
+    padding: 7px 14px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.btn-red {
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;
+    padding: 13px 25px;
+    font-size: 24px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+.text-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.main input {
+    padding: 16px 158px 16px 14px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.445);
+    background-color: rgba(23, 23, 23, 0.5);
+
+}
+
+/* first */
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+    gap: 20px;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+/* second */
+.second {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+section.second>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+    gap: 20px;
+}
+
+section.second>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+section.second>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+/* third */
+.third {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+section.third>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+    gap: 20px;
+}
+
+section.third>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+
+section.third>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: 900;
+
+}
+
+/* fourth */
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center
+}
+
+section.fourth>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+    gap: 20px;
+}
+
+section.fourth>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+
+section.fourth>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: 900;
+
+}
+
+.firimg {
+    position: relative;
+}
+
+.firimg img {
+    width: 550px;
+    position: relative;
+    z-index: 10;
+}
+
+.firimg video {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    width: 475px;
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    width: 550px;
+    position: relative;
+    z-index: 10;
+}
+
+.second .blackbox{
+    left: 23%;
+    top: 212%;
+    position: absolute;
+    margin: 0 auto;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 10%;
+    padding: 20px;
+    border: 2px solid rgba(128, 128, 128, 0.7);
+    box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+    border-radius: 0.75rem;
+    z-index: 10;
+} 
+
+.blackbox .img1 img{
+    padding:  0 20px 0 0;
+    height: 70px;
+}
+.blackbox .img2 img{
+    height: 50px;
+}
+/* section.second>div :nth-child() {
+    font-size: 12px;
+    font-weight: 900;
+    display: flex;
+} */
+
+/* .blackbox .t2{
+  font-size: 0.225rem;
+    color: blue;
+} */
+
+.thirimg {
+    position: relative;
+}
+
+.thirimg img {
+    width: 550px;
+    position: relative;
+    z-index: 10;
+}
+
+.thirimg video {
+    position: absolute;
+    top: 70px;
+    padding: 0 0 0 90px;
+    width: 355px;
+}
+
+.fouimg {
+    position: relative;
+}
+
+.fouimg img {
+    width: 550px;
+    position: relative;
+    z-index: 10;
+}
+
+.fifth {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.fifth h2 {
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    padding: 30px 0 15px 0;
+}
+
+.box2 {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 30px;
+    max-width: 70vw;
+    margin: 8px auto;
+    cursor: pointer;
+}
+
+.box2:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.box2 svg {
+    color: white;
+
+}
+
+.box3 {
+    color: white;
+}
+
+.box3 h4 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 15px 0;
+}
+
+.main2 input {
+    padding: 16px 158px 16px 14px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.445);
+    background-color: rgba(23, 23, 23, 0.5);
+}
+
+.btn-red2 {
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;
+    padding: 13px 25px;
+    font-size: 24px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+.text-btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    margin: 0 0 50px 0;
+}
+
+footer {
+    height: 50vh;
+    max-width: 70vw;
+    margin: auto;
+}
+
+footer .questions {
+    padding: 64px 0 5px 0;
+    color: rgba(255, 255, 255, 0.568);
+    font-weight: 400;
+    margin: 0 0 0 10px;
+    font-size: 16px;
+}
+
+.footer .footer-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer :nth-child(4){
+    padding: 0 0 13px 0;
+
+}
+
+.footer-item a {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.568);
+}
+
+.btn img {
+    fill: #FFFFFF;
+    height: 15px;
+    width: 13px;
+}
+
+.text-btn img {
+    fill: #FFFFFF;
+    height: 19px;
+    width: 19px;
+}
+
+.text-btn2 img {
+    fill: #FFFFFF;
+    height: 19px;
+    width: 19px;
+}
+
+.last p{
+    font-weight: 800;
+    size: 14px;
+    padding: 30px 0 ;
+    color: rgba(255, 255, 255, 0.568);
+
+}
